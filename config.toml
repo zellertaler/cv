@@ -1,0 +1,201 @@
+# Page settings
+
+baseURL = "./"
+languageCode = "de-de"
+title = ""
+theme = "hugo-devresume-theme-edited-by-me"
+
+[params]
+    author = "Andreas Hirtreiter"
+    description = "CV Template For Software Developers"
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+    [params.profile]
+        enable = true
+        name = "Andreas Hirtreiter"
+        tagline = "Software Entwickler"
+        avatar = "image17.png"
+    [params.contact]
+        enable = true
+        location = "93471 Arnbruck"
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "0170 7874640"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "a_hirtreiter@freenet.de"
+    [params.skills]
+        enable = true
+        [[params.skills.list]]
+        title = "Programmiersprachen und - Frameworks"
+        [[params.skills.list.items]]
+        details = "C++ (sehr gut), Qt (gut - sehr gut)"
+        [[params.skills.list.items]]
+        details = "Python (gut)"
+        [[params.skills.list.items]]
+        details = "MongoDB (gut)"
+        [[params.skills.list.items]]
+        details = "ABAP Objects (sehr gut)"
+        [[params.skills.list.items]]
+        details = "Squish (rudimentär)"        
+
+        [[params.skills.list]]
+        title = "DevOps"
+        [[params.skills.list.items]]
+        details = "IBM Rational Team Concert (gute)"
+        [[params.skills.list.items]]
+        details = "Git (rudimentär)"
+        [[params.skills.list.items]]        
+        
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MSc Wirtschaftsinformatik"
+        university = "THD Deggendorf"
+        rating= "Gesamtnote: mit Auszeichnung"
+        dates = "Oktober 2015 - März 2017"        
+        [[params.education.list]]
+        degree = "BSc Software Engineering"
+        university = "FH Oberösterreich (Campus Hagenberg)"
+        rating= "Gesamtnote: mit Auszeichnung"
+        dates = "Oktober 2010 - Juli 2013"        
+        [[params.education.list]]
+        degree = "Grundwehrdienst"
+        university = "Panzergrenadierbataillon 112 Regen"
+        rating= ""
+        dates = "Oktober 2009 - Juni 2010"
+        [[params.education.list]]
+        degree = "Allgemeine Hochschulreife"
+        university = "Dominicus von Linprun Gymnasium Viechtach"
+        rating= "Gesamtnote: 2.5"
+        dates = "2000 - 2009"                    
+
+    [params.certificates]
+        enable = true
+
+        [[params.certificates.list]]
+        name = "Ausbildung der Ausbilder (AdA)"        
+        date = "2017"
+        [[params.certificates.list]]
+        name = "ITIL Foundation Certificate in IT Service Management"
+        date = "2016"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Deutsch"
+        level = "Muttersprache"
+        [[params.languages.list]]
+        name = "Englisch"
+        level = "Sehr gut"
+
+    [params.interests]
+        enable = false
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+    [params.summary]
+        enable = false
+        text = ""
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Softwareentwickler"
+        dates = "Januar 2018 - Heute"
+        company = "Rohde & Schwarz GmbH & Co. KG"
+        details = "Softwareentwicklung für den Bereich Spectrum Monitoring"                
+        [[params.experience.list.items]]
+        details = "Konzeption, Entwicklung und Integration von Software für verteilte Ortungssysteme"
+        [[params.experience.list.items]]
+        details = "Erweiterung der Systemarchitektur in Abstimmung mit dem Fachgebiet"
+        [[params.experience.list.items]]
+        details = "Verifikation der Software in Zusammenarbeit mit dem Test-Team und Erstellung der Dokumentation."
+        [[params.experience.list]]
+        title = ""
+        dates = "Ab 2019"
+        details="Außerdem"
+        [[params.experience.list.items]]
+        details = "Organisation & Moderation von internen Schulungen für moderne Softwareentwicklung (Clean Code)"
+        [[params.experience.list.items]]
+        details = "Betreuung von Abschlussarbeiten "
+        [[params.experience.list.items]]
+        details = "Erfolgreiche Teilnahme am RS Way to Leadership (Identifikation und Förderung von potenziellen Führungskräften innerhalb R&S)"
+
+        [[params.experience.list]]
+        title = "SAP Anwendungsentwickler"
+        dates = "Januar 2014 - Dezember 2017"
+        company = "Zollner Elektronik AG"
+        details = "Entwicklung und Anpassung von Anwendungen im SAP ERP Umfeld"
+
+        [[params.experience.list]]
+        title = "SAP Anwendungsberater"
+        dates = "August 2013 - Dezember 2014"
+        company = "Zollner Elektronik AG"
+        details = "Second Level Support (ITIL) & Customizing für Anwendungen im SAP ERP Umfeld"     
+
+
+    [params.references]
+        enable = true
+        [[params.references.list]]
+        name = "Prof. Dr.-Ing. Herbert Fischer"         
+        [[params.references.list.items]]
+        details = "Professor für (Wirtschafts-) Informatik an der THD Deggendorf, Deutschland, Dieter-Görlitz-Platz 1, 94469 Deggendorf, Tel.: +49 991/3615-153, herbert.fischer@th-deg.de"
+        [[params.references.list.items]]
+        details = "Selbstständiger Berater"
+
+        [[params.references.list]]
+        name = "Roman Schacherl, MSc."
+        [[params.references.list.items]]
+        details = "Inhaber der softwaware gmbh, Ziegelweg 2, 4481 Asten, Österreich, Tel.: +43 664/46 333 97, roman.schacherl@softaware.at"
+        [[params.references.list.items]]
+        details = "Lehrbeauftragter an der FH Oberösterreich, Campus Hagenberg"
+        
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "TC Grün-Weiß Arnbuck "
+        [[params.information.list.items]]
+        details = "Erster Vorsitzender, (Jugend-) Trainer"                
+
+        [[params.information.list]]
+        title = "Sport"
+        details = "Ausdauersport (Schwimmen, Laufen, Mountainbiking, Langlauf)"
+
+
+    [params.social]
+        enable = false
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/zellertaler"
+        title = "zellertaler"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/username"
+        title = "@username"
+
+
+
+
+

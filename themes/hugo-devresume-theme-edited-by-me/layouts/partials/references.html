@@ -1,0 +1,21 @@
+
+                            <section class="work-section py-3">
+
+                                <h3 class="text-uppercase resume-section-heading mb-4">{{ i18n "references" }}</h3>
+
+                                {{ range .Site.Params.references.list }}
+                                <div class="item mb-3">
+                                    <div class="item-heading row align-items-center mb-2">
+                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">{{ .name }}</h4>                                        
+                                    </div>
+                                    <div class="item-content">                                        
+                                        <ul class="resume-list">
+                                            {{ range .items }}
+                                            <li>{{ with .details }}{{ . | markdownify }}{{ end }}</li>
+                                            {{ end }}
+                                        </ul>
+                                    </div>
+                                </div><!--//item-->
+                                {{ end }}
+
+                            </section><!--//work-section-->
