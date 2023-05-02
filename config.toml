@@ -44,7 +44,7 @@ theme = "hugo-devresume-theme-edited-by-me"
         [[params.skills.list]]
         title = "DevOps"
         [[params.skills.list.items]]
-        details = "IBM Rational Team Concert (gute)"
+        details = "IBM Rational Team Concert (gut)"
         [[params.skills.list.items]]
         details = "Git (rudimentär)"
         [[params.skills.list.items]]        
